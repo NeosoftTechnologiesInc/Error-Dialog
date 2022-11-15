@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-11-15 14:32:54" Modified_Date="2022-11-15 15:36:20" Creator="Neo" Comments="" ID="5e131773d33e3b385b35557c88e04239">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-11-15 14:32:54" Modified_Date="2022-11-15 16:17:01" Creator="Neo" Comments="" ID="3325dd0d816714fe59d7d8fd44e269c1">
   <Library_General_Settings>
     <Package_File_Name>Neosoft_Technologies_Error_Dialog</Package_File_Name>
-    <Library_Version>1.0.0.3</Library_Version>
+    <Library_Version>1.0.0.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds</Library_Output_Folder>
@@ -236,7 +236,7 @@
         <Path>..\src\Error Dialog.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0A8CD83BC5124C108BB981FF207121E0</GUID>
+      <GUID>750728F84F3B9BFE12035136156D146B</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
   <Library_Palette_Definition>
@@ -273,7 +273,7 @@
         <Path>..\src\Error Dialog.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0FA5345151A5137538CBAA82E6B0C3CA</GUID>
+      <GUID>CC2DA548A7B8ABE5341B92FA22B2FDF1</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
