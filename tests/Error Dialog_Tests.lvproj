@@ -16,7 +16,7 @@
 			<Item Name="No error - Tests.vi" Type="VI" URL="../No error - Tests.vi"/>
 		</Item>
 		<Item Name="Under test" Type="Folder">
-			<Item Name="Error Dialog.vi" Type="VI" URL="../../src/Error Dialog.vi"/>
+			<Item Name="Error Dialog w Copy to Clipboard.lvlib" Type="Library" URL="../../src/Error Dialog w Copy to Clipboard.lvlib"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
