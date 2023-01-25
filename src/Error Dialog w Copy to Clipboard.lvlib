@@ -16,5 +16,8 @@ All rights reserved.</Property>
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Error Dialog.vi" Type="VI" URL="../Error Dialog.vi"/>
 	</Item>
+	<Item Name="Dialog Type.ctl" Type="VI" URL="../Dialog Type.ctl">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
 	<Item Name="Error Dialog with Copy to Clipboard.vi" Type="VI" URL="../Error Dialog with Copy to Clipboard.vi"/>
 </Library>
