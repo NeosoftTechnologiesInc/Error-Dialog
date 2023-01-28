@@ -1,6 +1,9 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Library LVVersion="17008000">
-	<Property Name="NI.Lib.Description" Type="Str">This library contains VIs to display an error dialog to the user that offers the capability of copying the error code &amp; message into the clipboard.
+	<Property Name="NI.Lib.Description" Type="Str">This library contains VIs to display a revamped error dialog to the user which improve the capabilities by offering to :
+- copy the error code &amp; message into the clipboard.
+- open the search ni.com for the error code.
+- display either a dialog box with a single close window option (after the user acknowledges the dialog box, the VI returns control to the main VI) or a dialog box with buttons, which the user can use to either continue or stop (if the user selects Stop, the VI calls the Stop function to halt execution).
 
 Copyright (c) 2022, Neosoft Technologies Inc
 All rights reserved.</Property>
@@ -16,8 +19,9 @@ All rights reserved.</Property>
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Error Dialog.vi" Type="VI" URL="../Error Dialog.vi"/>
 	</Item>
-	<Item Name="Dialog Type.ctl" Type="VI" URL="../Dialog Type.ctl">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	<Item Name="Public API" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		<Item Name="Dialog Type.ctl" Type="VI" URL="../Dialog Type.ctl"/>
+		<Item Name="Error Dialog with Copy to Clipboard.vi" Type="VI" URL="../Error Dialog with Copy to Clipboard.vi"/>
 	</Item>
-	<Item Name="Error Dialog with Copy to Clipboard.vi" Type="VI" URL="../Error Dialog with Copy to Clipboard.vi"/>
 </Library>
