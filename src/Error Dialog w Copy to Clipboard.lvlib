@@ -22,6 +22,6 @@ All rights reserved.</Property>
 	<Item Name="Public API" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Dialog Type.ctl" Type="VI" URL="../Dialog Type.ctl"/>
-		<Item Name="Error Dialog with Copy to Clipboard.vi" Type="VI" URL="../Error Dialog with Copy to Clipboard.vi"/>
+		<Item Name="Improved Error Dialog.vi" Type="VI" URL="../Improved Error Dialog.vi"/>
 	</Item>
 </Library>
