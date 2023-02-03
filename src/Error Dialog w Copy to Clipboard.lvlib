@@ -18,6 +18,8 @@ All rights reserved.</Property>
 	<Item Name="Private VIs" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Error Dialog.vi" Type="VI" URL="../Error Dialog.vi"/>
+		<Item Name="Image In Clipoboard to PNG File.vi" Type="VI" URL="../Image In Clipoboard to PNG File.vi"/>
+		<Item Name="Simulate PrtScr Key Press.vi" Type="VI" URL="../Simulate PrtScr Key Press.vi"/>
 	</Item>
 	<Item Name="Public API" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
