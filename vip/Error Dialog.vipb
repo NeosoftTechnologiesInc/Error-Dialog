@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-11-15 14:32:54" Modified_Date="2023-01-28 20:40:19" Creator="Neo" Comments="" ID="51bed02e067cd5f790616885eaa1f4fe">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-11-15 14:32:54" Modified_Date="2023-03-01 12:24:20" Creator="Neo" Comments="" ID="8524fbc3dfa65ec98e6f970b3af84919">
   <Library_General_Settings>
     <Package_File_Name>neosoft_technologies_inc_error_dialog_with_copy_to_clipboard</Package_File_Name>
-    <Library_Version>1.1.0.13</Library_Version>
+    <Library_Version>1.2.0.15</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds</Library_Output_Folder>
@@ -31,13 +31,12 @@
       <Description>Displays a revamped error dialog to the user which improve the capabilities by offering to :
 - copy the error code &amp; message into the clipboard.
 - open the search ni.com for the error code.
+- create screenshot of the error popup or the full screen.
 - display either a dialog box with a single close window option (after the user acknowledges the dialog box, the VI returns control to the main VI) or a dialog box with buttons, which the user can use to either continue or stop (if the user selects Stop, the VI calls the Stop function to halt execution).</Description>
       <Copyright/>
       <Packager>Neosoft Technologies</Packager>
       <URL>https://github.com/NeosoftTechnologiesInc/Error-Dialog</URL>
-      <Release_Notes>v1.1.0 - add open the search ni.com for the error code.
-           - add dialog type choice to display either a dialog box with a single close window option (after the user    acknowledges the dialog box, the VI returns control to the main VI) or a dialog box with buttons, which the user can use to either continue or stop (if the user selects Stop, the VI calls the Stop function to halt execution).
-           - fix access scope issue.</Release_Notes>
+      <Release_Notes>v1.2.0 - add print screen (error popup or full screen)  functionnality.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -210,7 +209,7 @@
   <Library_Palette_Definition>
     <Functions_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
-      <Name>Error Dialog w Copy to Clipboard</Name>
+      <Name>Error Dialog</Name>
       <View_Format>Icons</View_Format>
       <Size>
         <Height_Row>1</Height_Row>
@@ -230,7 +229,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Improved Error Dialog.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Simple Error Handler.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -238,16 +237,16 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\Improved Error Dialog.vi</Path>
+        <Path>..\src\Simple Error Handler.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>221DD67613B99AAA3CFB727E126DEDA3</GUID>
+      <GUID>9FD5DECCD77257C9B9257992876F5407</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
   <Library_Palette_Definition>
     <Functions_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
-      <Name/>
+      <Name>Error Dialog</Name>
       <View_Format>Icons</View_Format>
       <Size>
         <Height_Row>1</Height_Row>
@@ -267,7 +266,7 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Improved Error Dialog.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Simple Error Handler.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -275,10 +274,10 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\src\Improved Error Dialog.vi</Path>
+        <Path>..\src\Simple Error Handler.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>43CB3C1AA0EC61E2E728DC5A11BE4C0E</GUID>
+      <GUID>5D73A121FFDE6CD45511C1458E54F31A</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
