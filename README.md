@@ -5,6 +5,7 @@
 Displays a revamped error dialog to the user which improve the capabilities by offering to :
 - copy the error code & message into the clipboard.
 - open the search ni.com for the error code.
+- add screenshot (error popup or full screen) feature.
 - display either a dialog box with a single close window option (after the user acknowledges the dialog box, the VI returns control to the main VI) or a dialog box with buttons, which the user can use to either continue or stop (if the user selects Stop, the VI calls the Stop function to halt execution).
 
 <p align="center">
