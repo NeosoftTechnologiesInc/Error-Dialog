@@ -8,9 +8,8 @@ Displays a revamped error dialog to the user which improve the capabilities by o
 - add screenshot (error popup or full screen) feature.
 - display either a dialog box with a single close window option (after the user acknowledges the dialog box, the VI returns control to the main VI) or a dialog box with buttons, which the user can use to either continue or stop (if the user selects Stop, the VI calls the Stop function to halt execution).
 
-<p align="center">
 ![image](https://user-images.githubusercontent.com/86322638/222531378-c42b2686-34d8-4cbf-b7d5-f1430aade574.png)
-</p>
+
 
 # Source
 Use LabVIEW 2017 SP1 to contribute to this repository. Configuration Manager will be maintained for LV 2017 and later versions for as long as features permit. If you are developing in more recent versions of LabVIEW, your contributions will not make it to master branch.
