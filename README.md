@@ -9,7 +9,7 @@ Displays a revamped error dialog to the user which improve the capabilities by o
 - display either a dialog box with a single close window option (after the user acknowledges the dialog box, the VI returns control to the main VI) or a dialog box with buttons, which the user can use to either continue or stop (if the user selects Stop, the VI calls the Stop function to halt execution).
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/NeosoftTechnologiesInc/Error-Dialog/f7e7eb038bab07b8783044246fa297690dc24998/img/Error%20Dialog%20with%20Copy%20to%20Clipboard.png" alt="Sublime's custom image"/>
+![image](https://user-images.githubusercontent.com/86322638/222531286-16611eb5-7af3-47f3-9fbb-9fe10f576009.png)
 </p>
 
 # Source
