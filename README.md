@@ -13,3 +13,7 @@ Displays a revamped error dialog to the user which improve the capabilities by o
 
 # Source
 Use LabVIEW 2017 SP1 to contribute to this repository. Configuration Manager will be maintained for LV 2017 and later versions for as long as features permit. If you are developing in more recent versions of LabVIEW, your contributions will not make it to master branch.
+
+# Contributors 
+- Benjamin Rouffet
+- Cyril Gambini: https://www.buymeacoffee.com/cyrilg
