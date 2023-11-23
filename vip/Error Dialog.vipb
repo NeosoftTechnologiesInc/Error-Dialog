@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-11-15 14:32:54" Modified_Date="2023-03-01 12:24:20" Creator="Neo" Comments="" ID="8524fbc3dfa65ec98e6f970b3af84919">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-11-15 14:32:54" Modified_Date="2023-11-23 11:38:59" Creator="Neo" Comments="" ID="aad25cd7f429e34d6697ded38728dcd3">
   <Library_General_Settings>
     <Package_File_Name>neosoft_technologies_inc_error_dialog_with_copy_to_clipboard</Package_File_Name>
-    <Library_Version>1.2.0.15</Library_Version>
+    <Library_Version>2.0.0.16</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds</Library_Output_Folder>
@@ -36,7 +36,9 @@
       <Copyright/>
       <Packager>Neosoft Technologies</Packager>
       <URL>https://github.com/NeosoftTechnologiesInc/Error-Dialog</URL>
-      <Release_Notes>v1.2.0 - add print screen (error popup or full screen)  functionnality.</Release_Notes>
+      <Release_Notes>- Adds a flag to erase the error at the output of this VI
+- Fixes a bug where a Windows Explorer window could be visible when doing a full screen capture
+- Allows discarding an error popup to appearing again for a specific error code during execution</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -240,7 +242,7 @@
         <Path>..\src\Simple Error Handler.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9FD5DECCD77257C9B9257992876F5407</GUID>
+      <GUID>BB133A912A4958ECCB4A75510A8BF413</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
   <Library_Palette_Definition>
@@ -277,7 +279,7 @@
         <Path>..\src\Simple Error Handler.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5D73A121FFDE6CD45511C1458E54F31A</GUID>
+      <GUID>846C8618445FEC032E7CCAB2A25185C7</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
